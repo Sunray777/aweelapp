@@ -68,6 +68,11 @@ export default {
   background: #E3E3E3;
 }
 
+.top-text-block
+{
+  padding: 35px 0;
+}
+
 .top-text 
 {
   /* Топ 10 самых долговечых авто по мнению пользователей: */
@@ -79,7 +84,7 @@ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 100;
 font-size: 20px;
-line-height: 85px;
+line-height: 35px;
 
 color: #000000;
 
