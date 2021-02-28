@@ -18,7 +18,11 @@
     </b-card-text>
   </b-card>
 </div>
-
+<div class="top-text-block">
+  <span class="top-text">
+    Топ 10 самых долговечых авто по мнению пользователей:
+  </span>
+</div>
 <CarTable class="cartableapp"/>
 </div>
   </div>
@@ -41,6 +45,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -60,6 +66,25 @@ export default {
   min-height: 1200px;
   margin: auto;
   background: #E3E3E3;
+}
+
+.top-text 
+{
+  /* Топ 10 самых долговечых авто по мнению пользователей: */
+
+width: 100%;
+margin: auto;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 85px;
+
+color: #000000;
+
+
+
 }
 
 </style>
