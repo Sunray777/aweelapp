@@ -7,17 +7,18 @@
     <div class="header_img">
   <b-card
     overlay
-    img-src="https://picsum.photos/900/250/?image=3"
+    img-src="images/BUGATTI_header.png"
     img-alt="Card Image"
     text-variant="white"
-    title="Image Overlay"
-    sub-title="Subtitle"
+    title=""
+    sub-title=""
   >
     <b-card-text>
-      Some quick example text to build on the card and make up the bulk of the card's content.
+     
     </b-card-text>
   </b-card>
 </div>
+
 <CarTable class="cartableapp"/>
 </div>
   </div>
@@ -32,9 +33,11 @@ import CarTable from './components/CarTable.vue'
 export default {
   name: 'App',
   components: {
-    CarTable
+        CarTable
+
   }
-}
+  };
+
 </script>
 
 <style>
