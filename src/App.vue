@@ -18,6 +18,7 @@
     </b-card-text>
   </b-card>
 </div>
+<Chart class="chart"/>
 <div class="top-text-block">
   <span class="top-text">
     Топ 10 самых долговечых авто по мнению пользователей:
@@ -33,18 +34,23 @@
 
 <script>
 import CarTable from './components/CarTable.vue'
+import Chart from './components/Chart.vue'
+
 
 export default {
   name: 'App',
+  
   components: {
+    Chart,
         CarTable
-
-  }
+  },
   };
 
 </script>
 
 <style>
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 #app {
@@ -60,10 +66,14 @@ export default {
   max-width: 1000px;
   margin: auto;
 }
+.chart 
+{
+padding: 60px 20px 40px;
+}
 .container
 {
   max-width: 1200px;
-  min-height: 1200px;
+  min-height: 1400px;
   margin: auto;
   background: #E3E3E3;
 }
